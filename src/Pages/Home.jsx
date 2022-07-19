@@ -1,9 +1,9 @@
-import React from 'react'
-
+import ProductResults from '../components/Products/ProductResults'
 export default function Home() {
+
   return (
     <div>
-      <h1 className="text-6xl">Welcom to fake shop </h1>
+      <ProductResults />
     </div>
   )
 }

@@ -1,9 +1,9 @@
 import ProductResults from '../components/Products/ProductResults'
-export default function Home() {
+export default function Home({getDetails}) {
 
   return (
     <div>
-      <ProductResults />
+      <ProductResults  getDetails={getDetails}/>
     </div>
   )
 }
